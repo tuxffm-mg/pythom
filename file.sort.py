@@ -1,7 +1,7 @@
 import os
 import shutil
 
-os.system('cd c:\Users\GoeMa05-ext\Downloads')
+os.system('cd c:\Users\tuxffm\Downloads')
 images = [f for f in os.listdir() if '.jpg' in f.lower()]
 
 os.mkdir('downloaded_images')
